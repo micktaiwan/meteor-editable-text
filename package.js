@@ -18,7 +18,7 @@ Package.onUse(function(api, where) {
   api.use('blaze', 'client');
   api.use('spacebars', 'client');
   api.use('random', 'client');
-  api.use('gwendall:body-events@0.1.6');
+  api.use('gwendall:body-events@0.2.0');
   api.use('dburles:mongo-collection-instances@0.3.5');
   api.use(['underscore', 'check'], ['client', 'server']);
   api.use('mongo', ['client', 'server']);
